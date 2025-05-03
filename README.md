@@ -6,7 +6,101 @@
 ![JUnit5](https://img.shields.io/badge/JUnit-5.10.1-green)
 ![Mockito](https://img.shields.io/badge/Mockito-5.8.0-blue)
 
-## 📌 Objetivo General
+## ⚠️ Importante: Antes de Comenzar
+
+1. **Lectura Completa**
+   - Es **OBLIGATORIO** leer la consigna completa antes de comenzar a trabajar
+   - Asegúrate de entender todos los requisitos y etapas
+   - Consulta las dudas antes de iniciar el desarrollo
+
+2. **Configuración del Repositorio**
+   - La rama `main` debe estar protegida
+   - No se permiten pushes directos a `main`
+   - Todo el desarrollo debe realizarse en ramas feature
+   - Los cambios deben integrarse mediante Pull Requests
+
+## 🔧 Configuración Inicial del Repositorio
+
+### 1. Protección de la Rama Main
+1. Ir a Settings > Branches
+2. En "Branch protection rules" hacer clic en "Add rule"
+3. En "Branch name pattern" escribir `main`
+4. Marcar las siguientes opciones:
+   - ✓ Require pull request reviews before merging
+   - ✓ Require status checks to pass before merging
+   - ✓ Require branches to be up to date before merging
+   - ✓ Include administrators
+5. Hacer clic en "Create"
+
+### 2. Configuración de Issues y Pull Requests
+1. Ir a Settings > General
+2. En la sección "Features":
+   - ✓ Habilitar Issues
+   - ✓ Habilitar Pull Requests
+3. En la sección "Pull Requests":
+   - ✓ Habilitar "Allow merge commits"
+   - ✓ Habilitar "Allow squash merging"
+   - ✓ Deshabilitar "Allow rebase merging"
+
+### 3. Configuración de Project Board
+1. Ir a la pestaña "Projects"
+2. Crear nuevo proyecto "Sistema de Gestión de Biblioteca"
+3. Configurar las siguientes columnas:
+   - To Do
+   - In Progress
+   - Code Review
+   - Done
+
+### 4. Configuración de Milestones
+1. Ir a la pestaña "Milestones"
+2. Crear los siguientes milestones:
+   - Etapa 1: Configuración y Modelos
+   - Etapa 2: Repositories y Services
+   - Etapa 3: Controllers
+   - Etapa 4: Testing y Documentación
+
+### 5. Configuración de Labels
+1. Ir a Issues > Labels
+2. Crear las siguientes etiquetas:
+   - `enhancement` (verde)
+   - `bug` (rojo)
+   - `documentation` (azul)
+   - `testing` (amarillo)
+   - `setup` (gris)
+   - `model` (morado)
+   - `service` (naranja)
+   - `controller` (rosa)
+   - `repository` (turquesa)
+
+### 6. Configuración de Templates
+1. Verificar que los templates estén correctamente ubicados:
+   ```
+   .github/
+   ├── ISSUE_TEMPLATE/
+   │   └── issue_template.yml
+   └── PULL_REQUEST_TEMPLATE/
+       └── pull_request_template.yml
+   ```
+
+### 7. Configuración de Git Local
+```bash
+# Configurar el repositorio remoto
+git remote add origin <URL_DEL_REPOSITORIO>
+
+# Crear y cambiar a la rama main
+git checkout -b main
+
+# Subir la rama main
+git push -u origin main
+
+# Crear rama de desarrollo
+git checkout -b develop
+
+# Subir la rama develop
+git push -u origin develop
+```
+
+## �� Objetivo General
 
 Desarrollar un sistema de gestión de biblioteca utilizando Spring Framework, implementando una arquitectura en capas y aplicando los principios SOLID. El sistema deberá manejar diferentes tipos de recursos bibliográficos, préstamos y usuarios, utilizando una base de datos en memoria para la persistencia de datos.
 
