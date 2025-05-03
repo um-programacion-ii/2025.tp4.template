@@ -22,15 +22,15 @@
 ## 🔧 Configuración Inicial del Repositorio
 
 ### 1. Protección de la Rama Main
-1. Ir a Settings > Branches
-2. En "Branch protection rules" hacer clic en "Add rule"
-3. En "Branch name pattern" escribir `main`
-4. Marcar las siguientes opciones:
-   - ✓ Require pull request reviews before merging
-   - ✓ Require status checks to pass before merging
-   - ✓ Require branches to be up to date before merging
-   - ✓ Include administrators
-5. Hacer clic en "Create"
+1. En "Branch name pattern" escribir `main`
+2. Marcar la siguiente opción:
+   - ✓ Require a pull request before merging
+3. Hacer clic en "Create"
+
+> 💡 **Nota**: La protección de la rama main es obligatoria y asegura que:
+> - No se puedan hacer cambios directos en la rama main
+> - Todos los cambios deben hacerse a través de Pull Requests
+> - Esto ayuda a mantener un historial de cambios ordenado y a seguir buenas prácticas de desarrollo
 
 ### 2. Configuración de Issues y Pull Requests
 1. Ir a Settings > General
@@ -100,7 +100,7 @@ git checkout -b develop
 git push -u origin develop
 ```
 
-## �� Objetivo General
+## 🎯 Objetivo General
 
 Desarrollar un sistema de gestión de biblioteca utilizando Spring Framework, implementando una arquitectura en capas y aplicando los principios SOLID. El sistema deberá manejar diferentes tipos de recursos bibliográficos, préstamos y usuarios, utilizando una base de datos en memoria para la persistencia de datos.
 
