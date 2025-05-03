@@ -1,0 +1,46 @@
+---
+name: Issue Template
+about: Template para crear nuevos issues
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+## Descripción
+[Describe brevemente el propósito de este issue]
+
+## Requisitos Técnicos
+- [ ] Requisito 1
+- [ ] Requisito 2
+- [ ] Requisito 3
+
+## Criterios de Aceptación
+- [ ] Criterio 1
+- [ ] Criterio 2
+- [ ] Criterio 3
+
+## Dependencias
+- [ ] Dependencia 1
+- [ ] Dependencia 2
+
+## Complejidad
+- [ ] Baja
+- [ ] Media
+- [ ] Alta
+
+## Labels
+- [ ] `enhancement`
+- [ ] `bug`
+- [ ] `documentation`
+- [ ] `testing`
+- [ ] `model`
+- [ ] `repository`
+- [ ] `service`
+- [ ] `controller`
+- [ ] `database`
+
+## Asignación
+- Milestone: [Nombre del Milestone]
+- Project: Sistema de Gestión de Biblioteca
+- Estado: To Do 

@@ -1,0 +1,45 @@
+---
+name: Pull Request Template
+about: Template para crear nuevos pull requests
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+## Descripción
+[Describe los cambios realizados en este PR]
+
+## Issue Relacionado
+Closes #[número del issue]
+
+## Tipo de Cambio
+- [ ] Nueva característica
+- [ ] Corrección de bug
+- [ ] Mejora de documentación
+- [ ] Refactorización
+- [ ] Test
+
+## Cambios Realizados
+- [ ] Cambio 1
+- [ ] Cambio 2
+- [ ] Cambio 3
+
+## Pruebas Realizadas
+- [ ] Test 1
+- [ ] Test 2
+- [ ] Test 3
+
+## Capturas de Pantalla
+[Si aplica, agregar capturas de pantalla]
+
+## Checklist
+- [ ] El código sigue las convenciones de estilo
+- [ ] Se han agregado/actualizado los tests necesarios
+- [ ] La documentación ha sido actualizada
+- [ ] Los tests pasan correctamente
+- [ ] El código está libre de warnings
+- [ ] Se han resuelto los conflictos de merge
+
+## Notas Adicionales
+[Agregar cualquier nota o consideración adicional] 
